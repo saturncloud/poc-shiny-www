@@ -27,7 +27,8 @@ ui <- fluidPage(
 
         # Show a plot of the generated distribution
         mainPanel(
-           plotOutput("distPlot")
+           plotOutput("distPlot"),
+           tags$img(src="cat.jpg",width="100px")
         )
     )
 )
